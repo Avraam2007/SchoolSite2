@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #1dacd6;
+    font-family: 'Montserrat';
+}
+
+body {
+
+}
+
+main {
+    margin: 0 10%;
+    margin-bottom: 100px;
+    font-family: 'Inter Tight';
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 0 5%;
+    background-color: #1dacd6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    color: #1dacd6;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+h3 {
+    color: #1dacd6;
+}
+
+.projects {
+    color: #1dacd6;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan {
+    color: #1dacd6;
+}
+
+.project-name {
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.project-name:hover {
+    color: grey;
+}
+
+.title {
+    width: 100%;
+    font-size: 64px;
+    font-family: 'Montserrat';
+    color: #1dacd6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.worker {
+    display: block;
+    text-align: end;
+    color: #1dacd6;
+}
+
+.video {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links {
+    list-style: square;
+    color: #1dacd6;
+}
+
+.link {
+    color: #1dacd6;
+}
+
+.click {
+    font-family: 'Inter Tight';
+    transition: 0.10s;
+}
